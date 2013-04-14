@@ -1,0 +1,80 @@
+body
+{
+  background-color: black;
+  background-image: url("../img/background_opt.jpg");
+}
+
+.container
+{
+  margin-top: 25px;
+}
+
+.content-container
+{
+  margin-top: 50px;
+  width:960px;
+}
+
+.content
+{
+  background-color: #fafafa;
+  border: 1px solid #d4d4d4;
+  width: 600px;
+  border-radius: 4px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.content .copyright
+{
+  text-align: center;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+}
+
+.content .text-error
+{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.content h1
+{
+  margin: 0px 0px 50px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.content form
+{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.kana
+{
+  color: black;
+  width: 400px;
+  height: 40px;
+  padding: 200px 0px 160px 0px;
+  font-size: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.kana-input
+{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+.kana-table th
+{
+  background-color: #f9f9f9;
+}
+
+.kana-table td
+{
+  font-size: 30px;
+}
