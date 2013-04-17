@@ -51,7 +51,26 @@ body
   margin: 0 auto;
 }
 
-.kana
+.content .score
+{
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+}
+
+.hiddenInfo .alert
+{
+  text-align: center;
+  width: 100px;
+  margin: 12px auto 0px auto;
+}
+
+.content .hiddenInfo
+{
+  display: none;
+  width: 600px;
+}
+
+.kanji
 {
   color: black;
   width: 400px;
@@ -62,12 +81,11 @@ body
   margin: 0 auto;
 }
 
-.kana-input
+.kanji-input
 {
   padding-top: 30px;
   text-align: center;
 }
-
 
 .kana-table th
 {

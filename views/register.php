@@ -4,7 +4,7 @@
   <div class="control-group <?php if (isset($data['usernameError'])) echo 'error' ?>">
     <label class="control-label" for="inputUsername">Username</label>
     <div class="controls">
-      <input class="span3" type="text" name="username" id="inputUsername" placeholder="Username" />
+      <input type="text" name="username" id="inputUsername" placeholder="Username" />
     </div>
   </div>
   <div class="control-group <?php if (isset($data['emailError'])) echo 'error' ?>">

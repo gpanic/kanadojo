@@ -1,7 +1,7 @@
 <?php
     include_once SERVER_ROOT . '/controllers/home.php';
     include_once SERVER_ROOT . '/controllers/login.php';
-    $whitelist = ['login', 'register', 'kana', ''];
+    $whitelist = ['login', 'register', 'kana', 'ajax', ''];
     $blacklist = ['login', 'register'];
 
     session_start();
@@ -10,7 +10,9 @@
     {
         preg_match("/((?:^|[A-Z])[a-z]+)/", $className, $split);
         $fileName = $split[0];
+
         $file = SERVER_ROOT . '/models/' . strtolower($fileName) . '.php';
+
         if (file_exists($file))
         {
             include_once($file);

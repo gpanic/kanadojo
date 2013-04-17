@@ -6,7 +6,6 @@
 
         public function main(array $getVars)
         {
-            $loginModel = new LoginModel;
             $view = new ViewModel($this->template);
             $view->assign("page", $this->template);
             $view->assign("title", $this->title);
